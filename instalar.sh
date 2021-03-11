@@ -8,6 +8,7 @@ then
     echo "iniciando instalação de programas e atualização do sistema"
     apt update -y
     apt upgrade -y
+    apt install git -y
     apt install python3 -y
     apt install python3-pygame -y
     apt install python3-tk -y
